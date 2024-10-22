@@ -2,7 +2,7 @@
 // @name         Reddit Auto Expand Posts
 // @namespace    https://www.reddit.com/
 // @version      1.0
-// @description  Automatically expand all posts in Reddit search results using getElementsByClassName
+// @description  Automatically expand all posts in Reddit search results
 // @author       Dan Adrian Mirea
 // @match        *://*.reddit.com/r/*
 // @exclude      *://*.reddit.com/r/*/comments/*
