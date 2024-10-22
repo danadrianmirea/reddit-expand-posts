@@ -22,7 +22,7 @@
         var expandoChild = entryAncestor ? entryAncestor.querySelector('.expando, .res-expando-box') : null;
         var computedStyle = expandoChild ? getComputedStyle(expandoChild) : null;
 
-        // only expand buttons who have not been already expanded
+        // only expand buttons that have not been already expanded
         if (computedStyle && computedStyle.display === 'none') {
             button.click();
         }
